@@ -94,6 +94,4 @@ vercel --prod
 
 ---
 
-## 📜 License
-This project is **open-source** under the [MIT License](LICENSE).
 
