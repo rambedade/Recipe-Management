@@ -1,7 +1,7 @@
 # Recipe Management Application
 
 ## 🚀 Live Demo
-[**Visit the Live App**](https://recs-sooty.vercel.app/) *(If the link is not working, follow the instructions below to run it locally.)*
+[**Visit the Live App**](https://recipe-management-woad.vercel.app/) *(If the link is not working, follow the instructions below to run it locally.)*
 
 ---
 
