@@ -13,7 +13,7 @@ const RecipeDetails = () => {
       .catch((err) => console.error(err));
   }, [id]);
 
-  if (!recipe) return <p>Loading...</p>;
+  if (!recipe || !id) return <p>Loading...</p>;
 
   return (
     <div className={styles.container}>
