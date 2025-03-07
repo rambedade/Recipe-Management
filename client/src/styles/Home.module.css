@@ -1,0 +1,50 @@
+.container {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: inherit;
+  }
+  .sortBtn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: background 0.3s;
+  }
+  
+  .sortBtn:hover {
+    background-color: #0056b3;
+  }
+  
+  
+  
+  .surpriseBtn {
+    background-color: var(--text-light);
+    color: var(--background-light);
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  [data-theme="dark"] .surpriseBtn {
+    background-color: var(--text-dark);
+    color: var(--background-dark);
+  }
+  
+  .surpriseBtn:hover {
+    opacity: 0.8;
+  }
+  

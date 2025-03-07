@@ -1,0 +1,44 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--background-light);
+    padding: 15px 20px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  [data-theme="dark"] .navbar {
+    background: var(--background-dark);
+  }
+  
+  .logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    color: var(--text-light);
+  }
+  
+  [data-theme="dark"] .logo a {
+    color: var(--text-dark);
+  }
+  
+  .navItems {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  .addRecipeBtn {
+    background: #ff5722;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+  }
+  
+  .addRecipeBtn:hover {
+    background: #e64a19;
+  }
+  

@@ -1,20 +1,38 @@
-.recipeGrid {
+.recipeContainer {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Adjusts to screen size */
-    gap: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
     padding: 20px;
     justify-content: center;
   }
   
+  /* Category Headers */
+  .categoryHeader {
+    grid-column: span 3; /* ✅ Ensures header spans full width */
+    background-color: #333;
+    color: #fff;
+    padding: 12px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    margin-top: 10px;
+  }
+  
+  [data-theme="dark"] .categoryHeader {
+    background-color: #555;
+    color: #ffcc00;
+  }
+  
+  /* Recipe Card Styling */
   .recipeCard {
     background: var(--background-light);
-    padding: 15px;
+    padding: 10px;
     border-radius: 10px;
     text-align: center;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
     transition: transform 0.2s ease-in-out;
-    text-decoration: none;
-    color: var(--text-light);
   }
   
   [data-theme="dark"] .recipeCard {
@@ -37,5 +55,6 @@
     font-size: 1rem;
     font-weight: bold;
     margin-top: 8px;
+    color: #b22222;
   }
   
