@@ -7,7 +7,7 @@
 
 ## 📌 About the Project
 The **Recipe Management Application** is a full-stack **MERN** project that allows users to:
-- View, add, edit, and delete recipes.
+- View, add, and edit recipes.
 - Sort recipes into categories.
 - Drag and drop recipes for better organization.
 - Toggle between **light mode & dark mode**.
